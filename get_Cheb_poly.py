@@ -28,7 +28,7 @@
 # To interpolate entire an column of Chebyshev polynomials from a Galapagos-2 catalogue:
 # import get_Cheb_poly
 # get_Cheb_poly.interpolate_cheb_from_col(cheb=cat['RE_GALFIT_BAND'], bands=[1.2486,
-# 0.43273, 0.59218, 0.80593, 1.0552, 1.3923,  1.5369], wave=0.4*(cat['z']+1))
+# 0.43273, 0.59218, 0.80593, 1.0552, 1.3923,  1.5369], wave=0.8*(cat['z']+1))
 # returns an array of length equal to the length of the catalogue, 'cat'
 # for objects for which the polynomial is undefined, the code returns -99
 # For example: array([ -99., -99., ..., 0.97521114, 2.86086448, ..., -99., -99.])
